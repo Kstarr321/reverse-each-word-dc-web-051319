@@ -1,4 +1,4 @@
-def reverse_it(sentence)
+def reverse_each_word(sentence)
   funky_array = sentence.split(" ")
   reversed_array = []
   funky_array.each do |word|
